@@ -172,7 +172,9 @@ a:hover,
 a:focus {
     color: #3E3EA8;
 }
-
+.center-me {
+    margin: 0 auto;
+}
 /*------------------------------------*\
   #OBJECTS
 \*------------------------------------*/
@@ -478,6 +480,42 @@ a:focus {
 .c-nav__link:focus {
     color: #5051db;
 }
+
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.c-footer__logo {}
+
+.c-footer__nav {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .c-footer {}
+
+    .c-footer__logo {}
+
+    .c-footer__nav {}
+}
+
+@media (min-width: 992px) {
+    .c-footer {}
+
+    .c-footer__logo {}
+
+    .c-footer__logo .c-logo {}
+
+    .c-footer__nav {}
+}
 /*
     Component: Lead
     ---
@@ -566,6 +604,9 @@ color: #fff;
 .c-link-cta—inverse:hover::after{
     background-color: #FFF;
 }
+
+
+
 @media (min-width: 768px) {
     .c-lead--lg {
         font-size: 23px;
