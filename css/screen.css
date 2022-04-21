@@ -188,7 +188,9 @@ a:focus {
     padding: 24px 24px 0;
     display: flow-root;
 }
-
+.o-row__neutral-x-light{
+    background-color: #F7F7F7;
+}
 /* size modifiers */
 
 .o-row--lg {
@@ -354,6 +356,7 @@ a:focus {
 
 .o-section {
     display: flow-root;
+    margin-top: 24px;
 }
 
 .o-section + .o-section {
